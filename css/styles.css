@@ -1,6 +1,15 @@
+/* general */
+body{
+  color: #000;
+  font-family: arial;
+  background-color: #fff;
+}
+
+/* header */
 .site-header{
   background-color: #fff;
 }
+
 .sitenav-link{
    font-weight: 500;
    font-size: 13px;
@@ -10,10 +19,9 @@
 text-decoration: none;
 color: #000;
 }
-div{
-  background-color: black;
-  color:#fff
-}
+
+
+/* button */
 .main-link{
   font-size: 13px;
   line-height: 15px;
@@ -21,10 +29,23 @@ div{
   color: #fff;
   text-decoration: none;
 }
+
 .hero-content{
   width: 390px;
 }
-.hero-line{
+
+.hero-heading{
+font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+}
+
+.hero{
+  background-color: #000;
+  color: #fff;
+}
+
+.orange-line{
   width: 80px;
   height: 3px;
   background-color: #ff7500;
@@ -33,4 +54,78 @@ div{
 .hero-img{
   width: 510px;
   height: 510px;
+}
+
+.hero-text{
+  font-size: 16px;
+line-height:1.5 ;
+letter-spacing: 0.5px;
+}
+
+.features-heading{
+  width: 440px;
+  font-size: 72px;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+}
+
+.feature{
+  width: 340px;
+}
+
+.feature-icon-wrapper{
+  width: 100px;
+  height: 100px;
+  background-color:  rgba(255, 117,0, 0.2 );
+}
+
+.feature-heading{
+font: 16px;
+line-height: 1.2;
+letter-spacing: 0.5px;
+}
+
+.feature-info{
+  font-size: 16px;
+  line-height:1.5 ;
+letter-spacing: 0.5px;
+ }
+
+ /* promo */
+ .promo{
+  background-color: #000;
+  color: #fff;
+ }
+
+ .promo-content{
+width: 440px;
+ }
+
+ .promo_heading{
+font-size: 40px;
+line-height: 48px;
+ }
+
+.promo-text{
+font-size: 16px;
+line-height: 15px;
+}
+
+.promo-highlight{
+color: #ff7500;
+}
+
+.promo-img{
+  width: 440px;
+  height: 440px;
+  object-fit: cover;
+}
+
+.site-footer{
+background-color: #f8f8f8 ;
+}
+
+.site-footer-divider{
+  height: 2px;
+background: rgba(37, 36,32, 0.5 );
 }
