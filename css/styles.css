@@ -10,12 +10,6 @@
 text-decoration: none;
 color: #000;
 }
-{
-  background-color: black;
-  color: #fff;
-  font-size: 20px;
-  text-align: center;
-}
 div{
   background-color: black;
   color:#fff
@@ -26,4 +20,17 @@ div{
   background-color: #ff7500;
   color: #fff;
   text-decoration: none;
+}
+.hero-content{
+  width: 390px;
+}
+.hero-line{
+  width: 80px;
+  height: 3px;
+  background-color: #ff7500;
+}
+
+.hero-img{
+  width: 510px;
+  height: 510px;
 }
