@@ -10,6 +10,9 @@ body{
   background-color: #fff;
 }
 
+.sitenav-list{
+list-style: none;
+}
 .sitenav-link{
    font-weight: 500;
    font-size: 13px;
@@ -123,9 +126,21 @@ color: #ff7500;
 
 .site-footer{
 background-color: #f8f8f8 ;
+list-style-type: none;
 }
 
 .site-footer-divider{
   height: 2px;
 background: rgba(37, 36,32, 0.5 );
+}
+
+
+.site-footer-list{
+  list-style: none;
+  width: 224px;
+}
+
+.site-footer-links{
+  color: #000;
+  text-decoration: none;
 }
