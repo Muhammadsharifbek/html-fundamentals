@@ -269,7 +269,7 @@ margin-bottom: 64px;
 }
 
 
-.site-footer-socials{
+.site-footer-social{
 display: flex;
 align-items: center;
 justify-content: space-between;
@@ -279,7 +279,10 @@ margin: 0;
 }
 
 .site-footer-social li{
-margin-right: 16px;
+ margin-right: 16px;
+ display: flex;
+ justify-content: center;;
+  align-items: center;
 }
 
 .site-footer-social li:last-child{
