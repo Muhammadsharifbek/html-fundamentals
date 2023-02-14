@@ -8,8 +8,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="css/styles.css">
+   <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <!-- SITE HEADER -->
@@ -23,10 +23,10 @@
   <!-- SITENAV -->
   <nav>
     <ul class="sitenav-list">
-      <li><a class="sitenav-link" href="#"> Bosh sahifa</a></li>
-      <li><a class="sitenav-link" href="#"> Kitoblar</a></li>
-      <li><a class="sitenav-link" href="#">Aksiyalar</a></li>
-      <li><a class="sitenav-link" href="#">kontaktlar</a></li>
+      <li class="sitenav-item"> <a class="sitenav-link" href="#"> Bosh sahifa</a></li>
+      <li class="sitenav-item"> <a class="sitenav-link" href="#"> Kitoblar</a></li>
+      <li class="sitenav-item"> <a class="sitenav-link" href="#">Aksiyalar</a></li>
+      <li class="sitenav-item"> <a class="sitenav-link" href="#">kontaktlar</a></li>
     </ul>
   </nav>
     <a  class="main-link" href="https://t.me/madnes_4ever">Ro'yxatdan o'tish</a>
@@ -51,7 +51,7 @@
         <hr class="orange-line">
         <h2 class="features-heading">Nega aynan
           Akademnashr?</h2>
-          <ul class="featurest-list">
+          <ul class="features-list">
               <li class="feature">
                <div class="feature-icon-wrapper">
                   <img src="img/Icon.png" alt="click" width="56" height="56">
@@ -81,8 +81,10 @@
         <section class="promo">
             <div class="promo-content">
               <h2 class="promo_heading"> Bolalar kitoblari uchun ajoyib aksiya!</h2>
-              <p class="promo-text">Ertaklar, she’rlar, sarguzasht asarlar, fikrlashni o’stirish uchun turli mashq qo’llanmalari va komikslar.</p>
-              <p class="promo-text">Aksiyadagi eng katta to’plamda <strong class="promo-highlight">50 ta kitob </strong>ni<strong class="promo-highlight"> 350 ming </strong>so’mga (aslida 383 ming so’m) sotib olishingiz mumkin</p>
+              <div class="promo-info-wrapper">
+                <p class="promo-text">Ertaklar, she’rlar, sarguzasht asarlar, fikrlashni o’stirish uchun turli mashq qo’llanmalari va komikslar.</p>
+                <p class="promo-text">Aksiyadagi eng katta to’plamda <strong class="promo-highlight">50 ta kitob </strong>ni<strong class="promo-highlight"> 350 ming </strong>so’mga (aslida 383 ming so’m) sotib olishingiz mumkin</p>
+              </div>
 
               <a class="main-link" href="#">Buyurtma berish</a>
             </div>
@@ -98,7 +100,7 @@
        <a href="index.html"></a>
         <a class="logo-link" href="#"><img src="img/akademnashr.svg"alt="akademnashr logosi" width="227" height="60"></a>
 
-         <ul class="site-footer-socials">
+         <ul class="site-footer-social">
            <li><a href="#"><img src="img/icon-telegram.png" alt=""></a></li>
            <li><a href="#"><img src="img/icon-facebook.png" alt=""></a></li>
            <li><a href="#"><img src="img/icon-instagram.png" alt=""></a></li>
