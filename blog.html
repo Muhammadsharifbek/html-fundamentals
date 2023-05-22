@@ -19,18 +19,21 @@
   <body>
     <header class="site-header">
       <div class="site-header__container container">
-        <a class="logo-link" href="index.html">
-          <img
-            src="img/akademnashr.svg"
-            alt="Akademnashr logo"
-            width="227"
-            height="60"
-          />
-        </a>
+        <div class="logo">
+          <a class="logo__link" href="index.html">
+            <img
+              class="logo__img"
+              src="img/akademnashr.svg"
+              alt="Akademnashr logo"
+              width="227"
+              height="60"
+            />
+          </a>
+        </div>
         <div class="site-header__actions">
           <!-- SITENAV -->
-          <nav>
-            <ul class="sitenav-list">
+          <nav class="sitenav">
+            <ul class="sitenav__list">
               <li class="sitenav__item">
                 <a class="sitenav__link" href="#"> Bosh sahifa</a>
               </li>
@@ -51,7 +54,7 @@
         </div>
       </div>
     </header>
-
+    <!-- MAINfeatures__item   -->
     <main>
       <section class="hero">
         <div class="hero__container container">
@@ -78,7 +81,7 @@
           <hr class="orange-line" />
           <h2 class="features__heading">Nega aynan Akademnashr?</h2>
           <ul class="features__list">
-            <li class="feature">
+            <li class="features__item feature">
               <div class="feature__icon-wrapper">
                 <img src="img/Icon.png" alt="click" width="56" height="56" />
               </div>
@@ -88,9 +91,15 @@
                 buyurtma qila olasiz.
               </p>
             </li>
-            <li class="feature">
+            <li class="features__item feature">
               <div class="feature__icon-wrapper">
-                <img src="img/Icon2.png" alt="star" width="56" height="56" />
+                <img
+                  class="feature__img"
+                  src="img/Icon2.png"
+                  alt="star"
+                  width="56"
+                  height="56"
+                />
               </div>
               <h3 class="feature__heading">Eng sara kitoblar</h3>
               <p class="feature__info">
@@ -98,9 +107,15 @@
                 xil janrdagi kitoblarni topa olasiz.
               </p>
             </li>
-            <li class="feature">
+            <li class="features__item feature">
               <div class="feature__icon-wrapper">
-                <img src="img/Icon4.png" alt="lighter" width="56" height="56" />
+                <img
+                  class="feature__img"
+                  src="img/Icon4.png"
+                  alt="lighter"
+                  width="56"
+                  height="56"
+                />
               </div>
               <h3 class="feature__heading">tez yetkazib berish</h3>
               <p class="feature__info">
@@ -129,7 +144,7 @@
                 <p class="promo__text">
                   Aksiyadagi eng katta to’plamda
                   <strong class="promo__highlight">50 ta kitob </strong
-                  >ni<strong class="promo-highlight"> 350 ming </strong>so’mga
+                  >ni<strong class="promo__highlight"> 350 ming </strong>so’mga
                   (aslida 383 ming so’m) sotib olishingiz mumkin
                 </p>
               </div>
@@ -150,89 +165,86 @@
     <footer class="site-footer">
       <div class="container">
         <div class="site-footer__top">
-          <a class="logo-link" href="#"
+          <a class="site-footer__logo logo" href="#"
             ><img
+              class="logo_img"
               src="img/akademnashr.svg"
               alt="akademnashr logosi"
               width="227"
               height="60"
           /></a>
-          <ul class="site-footer__social">
-            <li>
-              <a href="#"><img src="img/icon-telegram.png" alt="" /></a>
+          <ul class="site-footer__socials socials-site-footer">
+            <li class="socials-site-footer__item">
+              <a class="socials-site-footer__links" href="#"
+                ><img src="img/icon-telegram.png" alt="#"
+              /></a>
             </li>
-            <li>
-              <a href="#"><img src="img/icon-facebook.png" alt="" /></a>
+            <li class="socials-site-footer__item">
+              <a class="socials-site-footer__links" href="#"
+                ><img src="img/icon-facebook.png" alt="#"
+              /></a>
             </li>
-            <li>
-              <a href="#"><img src="img/icon-instagram.png" alt="" /></a>
+            <li class="socials-site-footer__item">
+              <a class="socials-site-footer__links" href="#"
+                ><img src="img/icon-instagram.png" alt="#"
+              /></a>
             </li>
           </ul>
         </div>
         <hr class="site-footer-divider" />
-        <div class="site-footer-bottom">
-          <ul class="site-footer-list">
-            <li><a class="site-footer-list__links" href="#">Kitoblar</a></li>
-            <li><a class="site-footer-list__links" href="#">Aksiyalar </a></li>
+        <div class="site-footer__bottom">
+          <ul class="site-footer__list">
+            <li><a class="site-footer__links" href="#">Kitoblar</a></li>
+            <li><a class="site-footer__links" href="#">Aksiyalar </a></li>
             <li>
-              <a class="site-footer-list__links" href="#">Yangiliklaк </a>
+              <a class="site-footer__links" href="#">Yangiliklaк </a>
             </li>
             <li>
-              <a class="site-footer-list__links" href="#">Kontanktlar </a>
-            </li>
-          </ul>
-          <ul class="site-footer-list">
-            <li>
-              <a class="site-footer-list__links" href="#">Ilmiy nashrlar</a>
-            </li>
-            <li>
-              <a class="site-footer-list__links" href="#"
-                >Ilmiy-ommabop nashrlar</a
-              >
-            </li>
-            <li>
-              <a class="site-footer-list__links" href="#">Ma’rifiy nashrlar</a>
-            </li>
-            <li><a class="site-footer-list__links" href="#">Lug’atlar</a></li>
-            <li>
-              <a class="site-footer-list__links" href="#"
-                >Adabiy-badiiy nashrlar</a
-              >
-            </li>
-            <li>
-              <a class="site-footer-list__links" href="#">Bolalar uchun</a>
+              <a class="site-footer__links" href="#">Kontanktlar </a>
             </li>
           </ul>
-          <ul class="site-footer-list">
-            <li>
-              <a class="site-footer-list__links" href="#"
+          <ul class="site-footer__list">
+            <li class="site-footer__item">
+              <a class="site-footer__links" href="#">Ilmiy nashrlar</a>
+            </li>
+            <li class="site-footer__item">
+              <a class="site-footer__links" href="#">Ilmiy-ommabop nashrlar</a>
+            </li>
+            <li class="site-footer__item">
+              <a class="site-footer__links" href="#">Ma’rifiy nashrlar</a>
+            </li>
+            <li class="site-footer__item">
+              <a class="site-footer-list__links" href="#">Lug’atlar</a>
+            </li>
+            <li class="site-footer__item">
+              <a class="site-footer__links" href="#">Adabiy-badiiy nashrlar</a>
+            </li>
+            <li class="site-footer__item">
+              <a class="site-footer__links" href="#">Bolalar uchun</a>
+            </li>
+          </ul>
+          <ul class="site-footer__list">
+            <li class="site-footer__item">
+              <a class="site-footer__links" href="#"
                 >Ko’p so’raladigan savollar</a
               >
             </li>
-            <li>
-              <a class="site-footer-list__links" href="#"
-                >Yetkazib berish haqida</a
-              >
+            <li class="site-footer__item">
+              <a class="site-footer__links" href="#">Yetkazib berish haqida</a>
             </li>
-            <li>
-              <a class="site-footer-list__links" href="#"
-                >To’lov usullari haqida</a
-              >
+            <li class="site-footer__item">
+              <a class="site-footer__links" href="#">To’lov usullari haqida</a>
             </li>
           </ul>
-          <ul class="site-footer-list">
-            <li>
-              <a class="site-footer-list__links" href="#"
-                >Bo’sh ish o’rinlari</a
-              >
+          <ul class="site-footer__list">
+            <li class="site-footer__item">
+              <a class="site-footer__links" href="#">Bo’sh ish o’rinlari</a>
             </li>
-            <li>
-              <a class="site-footer-list__links" href="#"
-                >Biz bilan bog’lanish</a
-              >
+            <li class="site-footer__item">
+              <a class="site-footer__links" href="#">Biz bilan bog’lanish</a>
             </li>
-            <li>
-              <a class="site-footer-list__links" href="#">Maxfiylik nizomi</a>
+            <li class="site-footer__item">
+              <a class="site-footer__links" href="#">Maxfiylik nizomi</a>
             </li>
           </ul>
         </div>
